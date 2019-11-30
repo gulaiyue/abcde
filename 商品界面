@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:layout_alignParentTop="true"
+        android:queryHint="点击搜索"
+        >
+
+
+    </SearchView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="精选数码"
+        android:textSize="36sp"
+        />
+
+<!--    这是两个图片一行封装好了的！-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <!--        这是一个图片的封装！-->
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_margin="7dp"
+                android:layout_height="285dp"
+                android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/ic_launcher_background" />
+                     <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="计算机 专业书籍"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="16即将毕业 书太多带不走，留给学弟学妹们，需要戳我"
+                        />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="click here to know more"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_margin="7dp"
+                android:layout_height="285dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+
+                    android:src="@drawable/ic_launcher_background" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="计算机 专业书籍"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="16即将毕业 书太多带不走，留给学弟学妹们，需要戳我"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="click here to know more"/>
+             </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <!--    这是两个图片一行封装好了的！-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--        这是一个图片的封装！-->
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_margin="7dp"
+            android:layout_height="285dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:src="@drawable/ic_launcher_background" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="计算机 专业书籍"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16即将毕业 书太多带不走，留给学弟学妹们，需要戳我"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="click here to know more"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_margin="7dp"
+            android:layout_height="285dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+
+                android:src="@drawable/ic_launcher_background" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="计算机 专业书籍"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16即将毕业 书太多带不走，留给学弟学妹们，需要戳我"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="click here to know more"/>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageButton
+    android:id="@+id/imageButton2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+    app:srcCompat="@android:drawable/btn_star_big_off" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            app:srcCompat="@android:drawable/btn_star_big_off" />
+
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            app:srcCompat="@android:drawable/btn_star_big_off" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
